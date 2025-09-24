@@ -35,6 +35,8 @@ class CodecIMG:
         anymation.create_animation(gradient=gradient)
         anymation.save()
 
+
+
 if __name__ == "__main__":
     photo = CodecIMG("start/input.png","end/output")
     photo.start()
